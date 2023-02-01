@@ -1,5 +1,5 @@
 export default function setFromArray(array) {
-    if (array.length > 0) return [
+    return [
         ...new Set(array)
     ]
 }
