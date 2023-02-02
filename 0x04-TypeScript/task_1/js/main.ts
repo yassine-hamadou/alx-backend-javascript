@@ -4,7 +4,7 @@ export interface Teacher {
     fullTimeEmployee: boolean;
     yearsOfExperience?: number;
     location: string;
-    [index:string]: any;
+    [contract:string]: any;
 }
 
 export interface Directors extends Teacher {
